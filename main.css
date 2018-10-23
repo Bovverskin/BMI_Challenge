@@ -16,7 +16,7 @@ html, body {
 }
 .footer {
     grid-column: 1 /-1;
-    font-size: 30px;
+    font-size: 50px;
     justify-content: right;
 }
 
@@ -35,11 +35,11 @@ row-gap: 100px;
 }
 .number{
     grid-column: 1;
-    font-size: 2em;
+    font-size: 5em;
 }
 .guide-text{
     grid-column: 2;
-    font-size: 1.5em;
+    font-size: 5em;
     justify-content: center;
     align-items: center;
 }
@@ -53,8 +53,8 @@ row-gap: 100px;
     height: 1.5em;
 }
 #calculate-button{
-    width: 10em;
-    height: 3em;
+    width: 20em;
+    height: 10em;
 }
 .answer {
     display: flex;
