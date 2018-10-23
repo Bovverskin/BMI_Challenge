@@ -1,11 +1,11 @@
 html, body {
-    margin: 20px;
+    margin: 100px;
   }
 .wrapper {
     display: grid;
     grid-template-columns: 100px auto 100px;
     grid-template-rows: minmax(100px, autofit);
-    grid-gap: 7px;
+    grid-gap: 9px;
 }
 .header {
     grid-column: 2 /3;
@@ -16,7 +16,7 @@ html, body {
 }
 .footer {
     grid-column: 1 /-1;
-    font-size: 15px;
+    font-size: 30px;
     justify-content: right;
 }
 
@@ -60,5 +60,5 @@ row-gap: 100px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    border-bottom: 1px solid black;
+    border-bottom: 5px solid black;
 }
