@@ -1,0 +1,64 @@
+html, body {
+    margin: 20px;
+  }
+.wrapper {
+    display: grid;
+    grid-template-columns: 100px auto 100px;
+    grid-template-rows: minmax(100px, autofit);
+    grid-gap: 7px;
+}
+.header {
+    grid-column: 2 /3;
+    display: flex;
+    justify-content: center;
+    justify-content: baseline;
+    border-bottom: 5px solid rgb(73, 7, 7);
+}
+.footer {
+    grid-column: 1 /-1;
+    font-size: 15px;
+    justify-content: right;
+}
+
+.content {
+grid-column: 2/ 3;
+row-gap: 100px;
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    margin: auto;
+    padding: 20px;
+    border-bottom: 1px dotted lightgray;
+}
+.number{
+    grid-column: 1;
+    font-size: 2em;
+}
+.guide-text{
+    grid-column: 2;
+    font-size: 1.5em;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-text{
+    display: flex;
+    flex-wrap: wrap;
+}
+#weight-input,#height-input {
+    width: 6em;
+    height: 1.5em;
+}
+#calculate-button{
+    width: 10em;
+    height: 3em;
+}
+.answer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border-bottom: 1px solid black;
+}
