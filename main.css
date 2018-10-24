@@ -31,7 +31,7 @@ row-gap: 100px;
     align-content: center;
     margin: auto;
     padding: 20px;
-    border-bottom: 1px dotted lightgray;
+    border-bottom: 4px lightblue;
 }
 .number{
     grid-column: 1;
