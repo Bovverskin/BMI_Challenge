@@ -14,7 +14,7 @@ class person {
             text = "Eat a cookie!" ;
 
         } else if(BMI > 18.5 && BMI <= 24.9 ){
-            text = "Congradulations.  You're a perfect person." ;
+            text = "Congratulations.  You're a perfect person." ;
 
         } else if (BMI > 24.9 && BMI < 29.9){
             text = "How about a veggie?"
