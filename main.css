@@ -60,5 +60,5 @@ row-gap: 100px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    border-bottom: 53px solid black;
+    border-bottom: 53px aquamarine;
 }
