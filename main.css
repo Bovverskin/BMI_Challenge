@@ -35,11 +35,11 @@ row-gap: 100px;
 }
 .number{
     grid-column: 1;
-    font-size: 5em;
+    font-size: 3em;
 }
 .guide-text{
     grid-column: 2;
-    font-size: 5em;
+    font-size: 3em;
     justify-content: center;
     align-items: center;
 }
@@ -50,15 +50,15 @@ row-gap: 100px;
 }
 #weight-input,#height-input {
     width: 6em;
-    height: 1.5em;
+    height: 4em;
 }
 #calculate-button{
-    width: 20em;
-    height: 10em;
+    width: 15em;
+    height: 4em;
 }
 .answer {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    border-bottom: 5px solid black;
+    border-bottom: 53px solid black;
 }
